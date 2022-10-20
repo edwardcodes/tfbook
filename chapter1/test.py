@@ -25,4 +25,4 @@ ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
 model.fit(xs, ys, epochs=500)
 
 print(model.predict([10.0]))
-print("Here is what I learned: {}".format(l0.get_weights()))
+print(f"Here is what I learned: {l0.get_weights()}")
